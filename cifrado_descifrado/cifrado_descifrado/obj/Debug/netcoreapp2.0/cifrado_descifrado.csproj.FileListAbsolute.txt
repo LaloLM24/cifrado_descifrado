@@ -1,0 +1,11 @@
+C:\Users\Lalo\source\repos\cifrado_descifrado\cifrado_descifrado\bin\Debug\netcoreapp2.0\cifrado_descifrado.deps.json
+C:\Users\Lalo\source\repos\cifrado_descifrado\cifrado_descifrado\bin\Debug\netcoreapp2.0\cifrado_descifrado.runtimeconfig.json
+C:\Users\Lalo\source\repos\cifrado_descifrado\cifrado_descifrado\bin\Debug\netcoreapp2.0\cifrado_descifrado.runtimeconfig.dev.json
+C:\Users\Lalo\source\repos\cifrado_descifrado\cifrado_descifrado\bin\Debug\netcoreapp2.0\cifrado_descifrado.dll
+C:\Users\Lalo\source\repos\cifrado_descifrado\cifrado_descifrado\bin\Debug\netcoreapp2.0\cifrado_descifrado.pdb
+C:\Users\Lalo\source\repos\cifrado_descifrado\cifrado_descifrado\obj\Debug\netcoreapp2.0\cifrado_descifrado.csprojResolveAssemblyReference.cache
+C:\Users\Lalo\source\repos\cifrado_descifrado\cifrado_descifrado\obj\Debug\netcoreapp2.0\cifrado_descifrado.csproj.CoreCompileInputs.cache
+C:\Users\Lalo\source\repos\cifrado_descifrado\cifrado_descifrado\obj\Debug\netcoreapp2.0\cifrado_descifrado.AssemblyInfoInputs.cache
+C:\Users\Lalo\source\repos\cifrado_descifrado\cifrado_descifrado\obj\Debug\netcoreapp2.0\cifrado_descifrado.AssemblyInfo.cs
+C:\Users\Lalo\source\repos\cifrado_descifrado\cifrado_descifrado\obj\Debug\netcoreapp2.0\cifrado_descifrado.dll
+C:\Users\Lalo\source\repos\cifrado_descifrado\cifrado_descifrado\obj\Debug\netcoreapp2.0\cifrado_descifrado.pdb
