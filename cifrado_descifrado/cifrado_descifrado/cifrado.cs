@@ -122,7 +122,6 @@ namespace cifrado_descifrado
             return matrizResultado;
         }
 
-
         public char[,] invertirMensaje(char [,] matriz, int tamaBloque)
         {
             int tamBloqueTemp = tamaBloque - 1;
@@ -141,36 +140,43 @@ namespace cifrado_descifrado
 
             return mensajeInvertido;
         }
+
         public String XOR(char[,] mensaje, char[,] llave, int tamanioBloque)
         {
             String mensajeCifrado = "";
             String[,] cadenaString = new string[tamanioBloque, tamanioBloque];
             int[,] cadena = new int[tamanioBloque, tamanioBloque];
-            bool comprobador = false;
+
             
             for (int a = 0; a < tamanioBloque; a++)
             {
                 for (int b = 0; b < tamanioBloque; b++)
                 {
-                    cadena[a, b] = mensaje[a, b] ^ llave[a, b] + llave[a,b];
+
+                    cadena[a, b] = mensaje[a, b] ^ (int)llave[a, b];
                     cadenaString[a, b] = cadena[a, b].ToString();
-                    do
-                    {
-                        if (cadenaString[a,b].Length < 3)
+
+                        if (cadenaString[a,b] == "0")
                         {
-                            cadenaString[a, b] = '0' + cadenaString[a, b];
+                            cadenaString[a, b] = "000";
                         }
-                        else
+                        else if (cadenaString[a,b].Length ==  1)
                         {
-                            comprobador = true;
+                            cadenaString[a, b] = "00" + cadenaString[a, b];
+                           
+                        }
+                        else if (cadenaString[a,b].Length == 2)
+                        {
+                            cadenaString[a, b] = "0" + cadenaString[a, b];
                         }
 
-                    } while (comprobador==false);
 
+                    
                     mensajeCifrado = mensajeCifrado + cadenaString[a, b];
                 }
             }
             Console.WriteLine("El Mensaje cifrado es:    "  + mensajeCifrado);
+
             return mensajeCifrado;
         }
 

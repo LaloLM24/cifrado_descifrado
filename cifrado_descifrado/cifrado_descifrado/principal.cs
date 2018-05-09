@@ -12,8 +12,15 @@ namespace cifrado_descifrado
 
         public void cifrar(String mensaje, String llave)
         {
-            cifrado cifrarMensaje = new cifrado(mensaje, llave);
-            cifrarMensaje.();
+            cifrado cifrarMensaje = new cifrado(mensaje, llave); 
+            cifrarMensaje.cifrar();
         }
-    }
+
+        public void descifrar(String mensaje, String llave)
+        {
+            descifrado descifrarMensaje = new descifrado(mensaje, llave);
+            descifrarMensaje.descifrar();
+
+        }
+    }        
 }
